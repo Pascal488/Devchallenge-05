@@ -436,7 +436,7 @@ span {
     z-index: 10;
   }
 }
- @media screen and (max-width:700px){
+ @media screen and (max-width:712px){
 
     .icon {
         position: relative;
