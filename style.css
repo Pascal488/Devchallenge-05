@@ -311,7 +311,7 @@ span {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   body {
     max-width: 1000px;
     overflow: auto;
@@ -418,6 +418,20 @@ span {
 
     z-index: 0;
   }
+  input {
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    position: relative;
+    left: -87%;
+    top: 5px;
+    color: #828282;
+    z-index: 10;
+  }
+
   input {
     z-index: 10;
   }
